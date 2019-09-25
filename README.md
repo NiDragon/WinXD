@@ -1,5 +1,5 @@
 # WinXD
-A simple windows version of the linux xd program to convert text files into C++ header files.
+A simple windows program to convert text files into C/C++ header files.
 
 Example Usage:
 Single File: winxd.exe mytext.txt mytext.h
