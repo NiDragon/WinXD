@@ -97,7 +97,7 @@ namespace winxxd
                     if (excess.IndexOf("\\") != -1)
                     {
                         int str_target = excess.LastIndexOf("\\");
-                        excess = excess.Remove(0, str_targetes + 1);
+                        excess = excess.Remove(0, str_target + 1);
                     }
 
                     string outline = String.Format("const unsigned char {0}[] = {{\n", excess);
